@@ -1,0 +1,374 @@
+{
+    "nameValues" : [
+        {
+            "nameID" : "mal",
+            "nameText" : "Malcolm Anderson"
+        },
+
+        {
+            "nameID" : "jchol",
+            "nameText" : "J'Chol"
+        },
+
+        {
+            "nameID" : "rrwmc",
+            "nameText" : "RoadrunnerWMC"
+        },
+
+        {
+            "nameID" : "corban",
+            "nameText" : "Corban N."
+        },
+
+        {
+            "nameID" : "jamble",
+            "nameText" : "jamble"
+        },
+
+        {
+            "nameID" : "am4",
+            "nameText" : "AM4"
+        },
+
+        {
+            "nameID" : "meatball",
+            "nameText" : "Meatball132"
+        },
+
+        {
+            "nameID" : "brickblock",
+            "nameText" : "brickblock369"
+        },
+
+        {
+            "nameID" : "grish",
+            "nameText" : "grishhung"
+        },
+
+        {
+            "nameID" : "jaden",
+            "nameText" : "Jaden Beity"
+        },
+
+        {
+            "nameID" : "naknow",
+            "nameText" : "naknow"
+        },
+
+        {
+            "nameID" : "tony",
+            "nameText" : "Tony Maniscalco"
+        },
+
+        {
+            "nameID" : "icarus",
+            "nameText" : "Icarus"
+        },
+
+        {
+            "nameID" : "patata",
+            "nameText" : "patataofcourse"
+        },
+
+        {
+            "nameID" : "blendy",
+            "nameText" : "Blendy"
+        },
+
+        {
+            "nameID" : "ds32",
+            "nameText" : "DreamSeeker32"
+        },
+
+        {
+            "nameID" : "hayden",
+            "nameText" : "Hayden"
+        },
+
+        {
+            "nameID" : "limeslime",
+            "nameText" : "LimeSlime"
+        },
+
+        {
+            "nameID" : "mvn",
+            "nameText" : "MasterVermilli0n"
+        },
+
+        {
+            "nameID" : "nok",
+            "nameText" : "NokNokShell"
+        },
+
+        {
+            "nameID" : "profe",
+            "nameText" : "ProfElements"
+        },
+
+        {
+            "nameID" : "gop",
+            "nameText" : "Professional Gopnik"
+        },
+
+        {
+            "nameID" : "rsm",
+            "nameText" : "RedStoneMatt"
+        },
+
+        {
+            "nameID" : "sphrby",
+            "nameText" : "Sapphire_Ruby"
+        },
+
+        {
+            "nameID" : "stink",
+            "nameText" : "Stink"
+        },
+
+        {
+            "nameID" : "thomas",
+            "nameText" : "Thomas Dowding"
+        },
+
+        {
+            "nameID" : "trifish",
+            "nameText" : "TriangularFish"
+        },
+
+        {
+            "nameID" : "aleok",
+            "nameText" : "aleok"
+        },
+
+        {
+            "nameID" : "hus",
+            "nameText" : "hus"
+        },
+
+        {
+            "nameID" : "kysonati",
+            "nameText" : "kysonati"
+        },
+
+        {
+            "nameID" : "rpifan",
+            "nameText" : "Aaron Dewes"
+        },
+
+        {
+            "nameID" : "skawo",
+            "nameText" : "Skawo"
+        },
+
+        {
+            "nameID" : "clarkcollege",
+            "nameText" : "Clark College"
+        },
+
+        {
+            "nameID" : "gamedevfriends_discord",
+            "nameText" : "Game Dev Friends Discord Server"
+        },
+
+        {
+            "nameID" : "sneakhub_discord",
+            "nameText" : "SneakHub Discord Server"
+        }
+    ],
+
+    "credits" : [
+        {
+            "jobTextID" : "project_lead",
+            "cameraID" : "credits",
+            "names" : [
+                "mal"
+            ]
+        },
+
+        {
+            "jobTextID" : "programming",
+            "cameraID" : "onlineSettings",
+            "names" : [
+                "mal"
+            ]
+        },
+
+        {
+            "jobTextID" : "tool_programming",
+            "cameraID" : "onlineSettings",
+            "names" : [
+                "jchol",
+                "mal",
+                "rrwmc"
+            ]
+        },
+
+        {
+            "jobTextID" : "3d_graphics",
+            "cameraID" : "resSettings",
+            "names" : [
+                "corban",
+                "jamble",
+                "mal"
+            ]
+        },
+
+        {
+            "jobTextID" : "2d_graphics",
+            "cameraID" : "resSettings",
+            "names" : [
+                "mal"
+            ]
+        },
+
+        {
+            "jobTextID" : "user_interface",
+            "cameraID" : "resSettings",
+            "names" : [
+                "mal"
+            ]
+        },
+
+        {
+            "jobTextID" : "music_sfx",
+            "cameraID" : "audioSettings",
+            "names" : [
+                "am4",
+                "brickblock",
+                "meatball"
+            ]
+        },
+
+        {
+            "jobTextID" : "int_playtesting",
+            "cameraID" : "controlSettings",
+            "names" : [
+                "brickblock",
+                "grish",
+                "jaden",
+                "jamble",
+                "mal",
+                "meatball",
+                "naknow",
+                "tony"
+            ]
+        },
+
+        {
+            "jobTextID" : "ext_playtesting",
+            "cameraID" : "controlSettings",
+            "names" : [
+                "blendy",
+                "ds32",
+                "gop",
+                "hayden",
+                "icarus",
+                "limeslime",
+                "mvn",
+                "nok",
+                "patata",
+                "profe",
+                "rsm",
+                "sphrby"
+            ]
+        },
+
+        {
+            "jobTextID" : "ext_playtesting",
+            "cameraID" : "controlSettings",
+            "names" : [
+                "aleok",
+                "hus",
+                "kysonati",
+                "stink",
+                "thomas",
+                "trifish"
+            ]
+        },
+
+        {
+            "jobTextID" : "spanish_localization",
+            "cameraID" : "langSettings",
+            "names" : [
+                "am4",
+                "mal",
+                "patata"
+            ]
+        },
+
+        {
+            "jobTextID" : "german_localization",
+            "cameraID" : "langSettings",
+            "names" : [
+                "rpifan"
+            ]
+        },
+
+        {
+            "jobTextID" : "polish_localization",
+            "cameraID" : "langSettings",
+            "names" : [
+                "nok"
+            ]
+        },
+
+        {
+            "jobTextID" : "french_localization",
+            "cameraID" : "langSettings",
+            "names" : [
+                "rsm"
+            ]
+        },
+
+        {
+            "jobTextID" : "korean_localization",
+            "cameraID" : "langSettings",
+            "names" : [
+                "brickblock"
+            ]
+        },
+
+        {
+            "jobTextID" : "japanese_localization",
+            "cameraID" : "langSettings",
+            "names" : [
+                "meatball"
+            ]
+        },
+
+        {
+            "jobTextID" : "fonts",
+            "cameraID" : "langSettings",
+            "names" : [
+                "^Viga",
+                "^Roboto",
+                "^Do Hyeon",
+                "^Licensed under SIL Open Font License"
+            ]
+        },
+
+        {
+            "jobTextID" : "special_thanks",
+            "cameraID" : "credits",
+            "names" : [
+                "clarkcollege",
+                "^ ",
+                "gamedevfriends_discord",
+                "^ ",
+                "skawo",
+                "^ ",
+                "sneakhub_discord"
+            ]
+        },
+
+        {
+            "jobTextID" : "",
+            "cameraID" : "credits",
+            "names" : [
+                "_©️2019 Zenith Point",
+                "^ ",
+                "^photon"
+            ]
+        }
+    ]
+}

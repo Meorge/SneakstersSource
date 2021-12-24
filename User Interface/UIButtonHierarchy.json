@@ -1,0 +1,483 @@
+{
+    "default_button" : "title",
+    "buttons" : [
+    {
+        "buttonID" : "title",
+        "buttonTextID" : "",
+        "parentButtonID" : "root",
+        "appearance" : "noStripes"
+    },
+    {
+        "buttonID" : "root",
+        "buttonTextID" : "root",
+        "parentButtonID" : "root",
+        "selectCameraID" : "root",
+        "buttonColor" : {
+            "r" : 0.65,
+            "g" : 0.0,
+            "b" : 0.75
+        },
+        "subButtons" : [
+            "playOnline",
+            "playOffline",
+            "customize",
+            "settings"
+        ]
+    },
+
+    {
+        "buttonID" : "playOnline",
+        "buttonTextID" : "play_online",
+        "parentButtonID" : "root",
+        "buttonDescriptionID" : "play_online_desc",
+        "hoverCameraID" : "root",
+        "selectCameraID": "capsule_select",
+        "runFunction" : "connectToInternet",
+        "buttonColor" : {
+            "r" : 0.8,
+            "g" : 0,
+            "b" : 0
+        },
+        "subButtons" : [
+            "createRoom",
+            "joinRoom"
+        ]
+    },
+
+    {
+        "buttonID" : "playOffline",
+        "buttonTextID" : "play_offline",
+        "parentButtonID" : "root",
+        "buttonDescriptionID" : "play_offline_desc",
+        "hoverCameraID" : "root",
+        "selectCameraID": "capsule_select",
+        "runFunction": "singlePlayer",
+        "appearance" : "noStripes",
+        "buttonColor" : {
+            "r" : 0.8,
+            "g" : 0,
+            "b" : 0
+        },
+        "subButtons" : [
+        ]
+    },
+
+    {
+        "buttonID" : "createRoom",
+        "buttonTextID" : "create_a_room",
+        "parentButtonID" : "playOnline",
+        "buttonDescriptionID" : "create_a_room_desc",
+        "hoverCameraID" : "root",
+        "selectCameraID": "capsule_select",
+        "buttonColor" : {
+            "r" : 0.8,
+            "g" : 0,
+            "b" : 0
+        },
+        "subButtons" : [
+            "createRoom_gemHeist"
+        ]
+    },
+
+    {
+        "buttonID" : "joinRoom",
+        "buttonTextID" : "join_a_room",
+        "parentButtonID" : "playOnline",
+        "buttonDescriptionID" : "join_a_room_desc",
+        "hoverCameraID" : "root",
+        "selectCameraID": "cube_select",
+        "buttonColor" : {
+            "r" : 0,
+            "g" : 0.6,
+            "b" : 0.2
+        },
+        "runFunction" : "joinRoom",
+        "appearance" : "horizontal_bar",
+        "subButtons" : []
+    },
+
+    {
+        "buttonID" : "customize",
+        "buttonTextID" : "customize",
+        "parentButtonID" : "root",
+        "buttonDescriptionID" : "customize_desc",
+        "hoverCameraID" : "customizationDoor",
+        "selectCameraID": "customizationRoom",
+        "buttonColor" : {
+            "r" : 0.2408437,
+            "g" : 0,
+            "b" : 0.9773585
+        },
+        "subButtons" : [
+            "customize_mySneakID"
+        ]
+    },
+
+    {
+        "buttonID" : "settings",
+        "buttonTextID" : "settings",
+        "parentButtonID" : "root",
+        "buttonDescriptionID" : "settings_desc",
+        "hoverCameraID" : "settingsDoor",
+        "selectCameraID": "settingsRoom",
+        "buttonColor" : {
+            "r" : 1,
+            "g" : 0.8256295,
+            "b" : 0
+        },
+        "subButtons" : [
+            "settings_resolution",
+            "settings_audio",
+            "settings_controls",
+            "settings_online",
+            "settings_language"
+        ]
+    },
+
+    {
+        "buttonID" : "createRoom_gemHeist",
+        "buttonTextID" : "gem_heist",
+        "parentButtonID" : "createRoom",
+        "buttonDescriptionID" : "gem_heist_desc",
+        "buttonColor" : {
+            "r" : 1,
+            "g" : 0.4,
+            "b" : 0
+        },
+        "runFunction" : "createRoom_gemHeist",
+        "appearance" : "noStripes",
+        "subButtons" : []
+    },
+
+    {
+        "buttonID" : "createRoom_hideAndSeek",
+        "buttonTextID" : "hide_and_seek",
+        "parentButtonID" : "createRoom",
+        "buttonDescriptionID" : "hide_and_seek_desc",
+        "buttonColor" : {
+            "r" : 1,
+            "g" : 0.6,
+            "b" : 0
+        },
+        "subButtons" : []
+    },
+
+
+
+    {
+        "buttonID" : "customize_mySneakID",
+        "buttonTextID" : "my_sneak_id",
+        "parentButtonID" : "customize",
+        "hoverCameraID" : "wardrobeHover",
+        "buttonColor" : {
+            "r" : 0.3019,
+            "g" : 0.1961,
+            "b" : 0.8196
+        },
+        "subButtons" : [
+            "customize_mySneakID_playername",
+            "customize_mySneakID_playerhat",
+            "customize_mySneakID_playercolor"
+        ]
+    },
+
+        {
+            "buttonID" : "customize_mySneakID_playername",
+            "buttonTextID" : "name",
+            "parentButtonID" : "customize_mySneakID",
+            "settingID" : "playername",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+
+        {
+            "buttonID" : "customize_mySneakID_playerhat",
+            "buttonTextID" : "playerhat",
+            "parentButtonID" : "customize_mySneakID",
+            "runFunction" : "hat_list",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+
+        {
+            "buttonID" : "customize_mySneakID_playercolor",
+            "buttonTextID" : "playercolor",
+            "parentButtonID" : "customize_mySneakID",
+            "settingID" : "playercolor",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+
+    {
+        "buttonID" : "customize_thiefmart",
+        "buttonTextID" : "thiefmart",
+        "parentButtonID" : "customize",
+        "hoverCameraID" : "blacmarketWindow",
+        "buttonColor" : {
+            "r" : 0.7882,
+            "g" : 0.1961,
+            "b" : 0.8196
+        },
+        "subButtons" : []
+    },
+
+
+
+    {
+        "buttonID" : "settings_resolution",
+        "buttonTextID" : "resolution_settings",
+        "parentButtonID" : "settings",
+        "hoverCameraID" : "resSettings",
+        "selectCameraID" : "resSettings",
+        "buttonColor" : {
+            "r" : 0.3019,
+            "g" : 0.1961,
+            "b" : 0.8196
+        },
+        "subButtons" : [
+            "settings_resolution_qualitylevel",
+            "settings_resolution_resdropdown",
+            "settings_resolution_fullscreen"
+        ]
+    },
+        {
+            "buttonID" : "settings_resolution_qualitylevel",
+            "buttonTextID" : "qualitylevel",
+            "buttonDescriptionID" : "qualitylevel_description",
+            "parentButtonID" : "settings_resolution",
+            "settingID" : "quality_level",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+
+        {
+            "buttonID" : "settings_resolution_resdropdown",
+            "buttonTextID" : "resolution",
+            "buttonDescriptionID" : "resolution_description",
+            "parentButtonID" : "settings_resolution",
+            "settingID" : "screen_res",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+
+        {
+            "buttonID" : "settings_resolution_fullscreen",
+            "buttonTextID" : "full_screen",
+            "buttonDescriptionID" : "full_screen_description",
+            "parentButtonID" : "settings_resolution",
+            "settingID" : "full_screen",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+
+    {
+        "buttonID" : "settings_audio",
+        "buttonTextID" : "audio_settings",
+        "parentButtonID" : "settings",
+        "hoverCameraID" : "audioSettings",
+        "selectCameraID" : "audioSettings",
+        "buttonColor" : {
+            "r" : 0.3019,
+            "g" : 0.1961,
+            "b" : 0.8196
+        },
+        "subButtons" : [
+            "settings_audio_musicvol",
+            "settings_audio_sfxvol"
+        ]
+    },
+        {
+            "buttonID" : "settings_audio_musicvol",
+            "buttonTextID" : "music_vol",
+            "buttonDescriptionID" : "music_vol_description",
+            "parentButtonID" : "settings_audio",
+            "settingID" : "music_vol",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+        {
+            "buttonID" : "settings_audio_sfxvol",
+            "buttonTextID" : "sfx_vol",
+            "buttonDescriptionID" : "sfx_vol_description",
+            "parentButtonID" : "settings_audio",
+            "settingID" : "sfx_vol",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+    {
+        "buttonID" : "settings_controls",
+        "buttonTextID" : "control_settings",
+        "parentButtonID" : "settings",
+        "hoverCameraID" : "controlSettings",
+        "selectCameraID" : "controlSettings",
+        "buttonColor" : {
+            "r" : 0.7882,
+            "g" : 0.1961,
+            "b" : 0.8196
+        },
+        "subButtons" : [
+            "settings_controls_inverty",
+            "settings_controls_mouse_sensitivity",
+            "settings_controls_customizecontrols"
+        ]
+    },
+
+        {
+            "buttonID" : "settings_controls_customizecontrols",
+            "buttonTextID" : "customize_controls",
+            "parentButtonID" : "settings_controls",
+            "runFunction" : "customize_controls",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+        {
+            "buttonID" : "settings_controls_inverty",
+            "buttonTextID" : "invert_y_mouselook",
+            "buttonDescriptionID" : "invert_y_mouselook_description",
+            "parentButtonID" : "settings_controls",
+            "settingID" : "controls_inverty",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+
+        {
+            "buttonID" : "settings_controls_mouse_sensitivity",
+            "buttonTextID" : "mouse_sensitivity",
+            "buttonDescriptionID" : "mouse_sensitivity_description",
+            "parentButtonID" : "settings_controls",
+            "settingID" : "controls_mouse_sensitivity",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+
+    {
+        "buttonID" : "settings_online",
+        "buttonTextID" : "online_settings",
+        "parentButtonID" : "settings",
+        "hoverCameraID" : "onlineSettings",
+        "selectCameraID" : "onlineSettings",
+        "buttonColor" : {
+            "r" : 0.7882,
+            "g" : 0.1961,
+            "b" : 0.8196
+        },
+        "subButtons" : [
+            "settings_online_server",
+            "settings_online_discordrp",
+            "settings_online_hidecode"
+        ]
+    },
+        {
+            "buttonID" : "settings_online_discordrp",
+            "buttonTextID" : "discord_rich_presence",
+            "buttonDescriptionID" : "discord_rich_presence_description",
+            "parentButtonID" : "settings_online",
+            "settingID" : "discordrp",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+        {
+            "buttonID" : "settings_online_server",
+            "buttonTextID" : "online_settings_server",
+            "buttonDescriptionID" : "online_settings_server_description",
+            "parentButtonID" : "settings_online",
+            "settingID" : "server",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+        {
+            "buttonID" : "settings_online_hidecode",
+            "buttonTextID" : "online_settings_hidecode",
+            "buttonDescriptionID" : "online_settings_hidecode_description",
+            "parentButtonID" : "settings_online",
+            "settingID" : "hidecode",
+            "buttonColor" : {
+                "r" : 0.3019,
+                "g" : 0.1961,
+                "b" : 0.8196
+            },
+            "subButtons" : []
+        },
+    {
+        "buttonID" : "settings_language",
+        "buttonTextID" : "language_settings",
+        "parentButtonID" : "settings",
+        "runFunction" : "language",
+        "hoverCameraID" : "langSettings",
+        "selectCameraID" : "langSettings",
+        "buttonColor" : {
+            "r" : 0.3019,
+            "g" : 0.1961,
+            "b" : 0.8196
+        },
+        "subButtons" : []
+    },
+
+    {
+        "buttonID" : "settings_credits",
+        "buttonTextID" : "credit_settings",
+        "parentButtonID" : "settings",
+        "runFunction" : "credits",
+        "selectCameraID" : "credits",
+        "hoverCameraID" : "credits",
+        "buttonColor" : {
+            "r" : 0.7882,
+            "g" : 0.1961,
+            "b" : 0.8196
+        },
+        "subButtons" : []
+    }
+]
+}

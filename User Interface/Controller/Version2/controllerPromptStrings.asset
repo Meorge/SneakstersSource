@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87a34ba9a9464d3ca1114a86e7fb86a, type: 3}
+  m_Name: controllerPromptStrings
+  m_EditorClassIdentifier: 
+  items:
+  - keys:
+    - "A [Xbox Wireless Controller]"
+    value: <sprite name="xbox_a">
+  - keys:
+    - "B [Xbox Wireless Controller]"
+    value: <sprite name="xbox_b">
+  - keys:
+    - "X [Xbox Wireless Controller]"
+    value: <sprite name="xbox_x">
+  - keys:
+    - "Y [Xbox Wireless Controller]"
+    value: <sprite name="xbox_y">
+  - keys:
+    - "LS [Xbox Wireless Controller]"
+    value: <sprite name="lstick">
+  - keys:
+    - "RS [Xbox Wireless Controller]"
+    value: <sprite name="rstick">
+  - keys:
+    - "D-Pad [Xbox Wireless Controller]"
+    value: <sprite name="dpad">
+  - keys:
+    - "D-Pad Up [Xbox Wireless Controller]"
+    value: <sprite name="dpad_up">
+  - keys:
+    - "D-Pad Down [Xbox Wireless Controller]"
+    value: <sprite name="dpad_down">
+  - keys:
+    - "D-Pad Left [Xbox Wireless Controller]"
+    value: <sprite name="dpad_left">
+  - keys:
+    - "D-Pad Right [Xbox Wireless Controller]"
+    value: <sprite name="dpad_right">
+  - keys:
+    - "LT [Xbox Wireless Controller]"
+    value: <sprite name="xbox_lt">
+  - keys:
+    - "RT [Xbox Wireless Controller]"
+    value: <sprite name="xbox_rt">
+  - keys:
+    - "LB [Xbox Wireless Controller]"
+    value: <sprite name="xbox_lb">
+  - keys:
+    - "RB [Xbox Wireless Controller]"
+    value: <sprite name="xbox_rb">
+  - keys:
+    - "Start [Xbox Wireless Controller]"
+    value: <sprite name="xbox_menu">
+  - keys:
+    - "View [Xbox Wireless Controller]"
+    value: <sprite name="xbox_view">
+  - keys:
+    - "Cross [Wireless Controller]"
+    value: <sprite name="ps4_cross">
+  - keys:
+    - "Circle [Wireless Controller]"
+    value: <sprite name="ps4_circle">
+  - keys:
+    - "Square [Wireless Controller]"
+    value: <sprite name="ps4_square">
+  - keys:
+    - "Triangle [Wireless Controller]"
+    value: <sprite name="ps4_triangle">
+  - keys:
+    - "LS [Wireless Controller]"
+    value: <sprite name="lstick">
+  - keys:
+    - "RS [Wireless Controller]"
+    value: <sprite name="rstick">
+  - keys:
+    - "D-Pad [Wireless Controller]"
+    value: <sprite name="ps4_dpad">
+  - keys:
+    - "D-Pad Up [Wireless Controller]"
+    value: <sprite name="ps4_dpad_up">
+  - keys:
+    - "D-Pad Down [Wireless Controller]"
+    value: <sprite name="ps4_dpad_down">
+  - keys:
+    - "D-Pad Left [Wireless Controller]"
+    value: <sprite name="ps4_dpad_left">
+  - keys:
+    - "D-Pad Right [Wireless Controller]"
+    value: <sprite name="ps4_dpad_right">
+  - keys:
+    - "L1 [Wireless Controller]"
+    value: <sprite name="ps4_l1">
+  - keys:
+    - "R1 [Wireless Controller]"
+    value: <sprite name="ps4_r1">
+  - keys:
+    - "L2 [Wireless Controller]"
+    value: <sprite name="ps4_l2">
+  - keys:
+    - "R2 [Wireless Controller]"
+    value: <sprite name="ps4_r2">
+  - keys:
+    - "Options [Wireless Controller]"
+    value: <sprite name="ps4_options">
+  - keys:
+    - "Share [Wireless Controller]"
+    value: <sprite name="ps4_share">
+  - keys:
+    - "\r [Keyboard]"
+    - "Enter [Keyboard]"
+    - "ENTER [Keyboard]"
+    - "Return [Keyboard]"
+    value: Enter
+  - keys:
+    - "\t [Keyboard]"
+    - "Tab [Keyboard]"
+    value: Tab
+  - keys:
+    - "Left Shift [Keyboard]"
+    - "Shift [Keyboard]"
+    value: Shift
+  - keys:
+    - "  [Keyboard]"
+    - "Space [Keyboard]"
+    value: Space
+  - keys:
+    - "\x1B [Keyboard]"
+    - "Escape [Keyboard]"
+    - "Esc [Keyboard]"
+    - "ESC [Keyboard]"
+    value: Esc
+  - keys:
+    - "Scroll Wheel [Mouse]"
+    value: <sprite name="mouse_scrollwheel">
+  - keys:
+    - "LMB [Mouse]"
+    value: <sprite name="mouse_lmb">
+  - keys:
+    - "RMB [Mouse]"
+    value: <sprite name="mouse_rmb">
+  - keys:
+    - "a [Keyboard]"
+    value: A
+  - keys:
+    - "b [Keyboard]"
+    value: B
+  - keys:
+    - "c [Keyboard]"
+    value: C
+  - keys:
+    - "d [Keyboard]"
+    value: D
+  - keys:
+    - "e [Keyboard]"
+    value: E
+  - keys:
+    - "f [Keyboard]"
+    value: F
+  - keys:
+    - "g [Keyboard]"
+    value: G
+  - keys:
+    - "h [Keyboard]"
+    value: H
+  - keys:
+    - "i [Keyboard]"
+    value: I
+  - keys:
+    - "j [Keyboard]"
+    value: J
+  - keys:
+    - "k [Keyboard]"
+    value: K
+  - keys:
+    - "l [Keyboard]"
+    value: L
+  - keys:
+    - "m [Keyboard]"
+    value: M
+  - keys:
+    - "n [Keyboard]"
+    value: N
+  - keys:
+    - "o [Keyboard]"
+    value: O
+  - keys:
+    - "p [Keyboard]"
+    value: P
+  - keys:
+    - "q [Keyboard]"
+    value: Q
+  - keys:
+    - "r [Keyboard]"
+    value: R
+  - keys:
+    - "s [Keyboard]"
+    value: S
+  - keys:
+    - "t [Keyboard]"
+    value: T
+  - keys:
+    - "u [Keyboard]"
+    value: U
+  - keys:
+    - "v [Keyboard]"
+    value: V
+  - keys:
+    - "w [Keyboard]"
+    value: W
+  - keys:
+    - "x [Keyboard]"
+    value: X
+  - keys:
+    - "y [Keyboard]"
+    value: Y
+  - keys:
+    - "z [Keyboard]"
+    value: Z
+  - keys:
+    - "0 [Keyboard]"
+    value: 0
+  - keys:
+    - "1 [Keyboard]"
+    value: 1
+  - keys:
+    - "2 [Keyboard]"
+    value: 2
+  - keys:
+    - "3 [Keyboard]"
+    value: 3
+  - keys:
+    - "4 [Keyboard]"
+    value: 4
+  - keys:
+    - "5 [Keyboard]"
+    value: 5
+  - keys:
+    - "6 [Keyboard]"
+    value: 6
+  - keys:
+    - "7 [Keyboard]"
+    value: 7
+  - keys:
+    - "8 [Keyboard]"
+    value: 8
+  - keys:
+    - "9 [Keyboard]"
+    value: 9
